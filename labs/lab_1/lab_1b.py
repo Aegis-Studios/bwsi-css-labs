@@ -35,9 +35,9 @@ def simple_calculator(operation: str, num1: float, num2: float) -> float:
         if num2 != 0:
             return num1 / num2
         else:
-            return("[Cannot divide by zero.]")
+            return "[Cannot divide by zero.]"
     else:
-        return("[Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.]")
+        return "[Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.]"
 
 def testNum(prompt: str):
     try:
